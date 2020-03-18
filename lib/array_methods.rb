@@ -1,5 +1,7 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
+  array.index 
+  { |x| [value_to_find].include?(x) }
   array.include?(value_to_find)
 end
 
